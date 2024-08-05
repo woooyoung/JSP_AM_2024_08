@@ -19,4 +19,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>asdfg</display-name>
+    <servlet-name>asdfg</servlet-name>
+    <servlet-class>com.KoreaIT.java.jsp_AM.asdfg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>asdfg</servlet-name>
+    <url-pattern>/asdfg</url-pattern>
+  </servlet-mapping>
 </web-app>
