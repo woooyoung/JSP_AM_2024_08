@@ -29,4 +29,14 @@
     <servlet-name>asdfg</servlet-name>
     <url-pattern>/asdfg</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ArticleListServlet</display-name>
+    <servlet-name>ArticleListServlet</servlet-name>
+    <servlet-class>com.KoreaIT.java.jsp_AM.ArticleListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ArticleListServlet</servlet-name>
+    <url-pattern>/ArticleListServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
