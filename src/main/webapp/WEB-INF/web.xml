@@ -39,4 +39,14 @@
     <servlet-name>ArticleListServlet</servlet-name>
     <url-pattern>/ArticleListServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>dsfahhgdfsh</display-name>
+    <servlet-name>dsfahhgdfsh</servlet-name>
+    <servlet-class>com.KoreaIT.java.jsp_AM.servlet.asdfg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dsfahhgdfsh</servlet-name>
+    <url-pattern>/dsfahhgdfsh</url-pattern>
+  </servlet-mapping>
 </web-app>
