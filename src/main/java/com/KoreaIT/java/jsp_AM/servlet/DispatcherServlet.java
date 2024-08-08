@@ -61,12 +61,6 @@ public class DispatcherServlet extends HttpServlet {
 			System.out.println(requestUri);
 
 			String[] reqUriBits = requestUri.split("/");
-			// ~~/s/article/list
-//			System.out.println(reqUriBits[0]);
-//			System.out.println(reqUriBits[1]);
-//			System.out.println(reqUriBits[2]);
-//			System.out.println(reqUriBits[3]);
-//			System.out.println(reqUriBits[4]);
 
 			if (reqUriBits.length < 5) {
 				response.getWriter().append(String.format("<script>alert('올바른 요청 x'); </script>"));
